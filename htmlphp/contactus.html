@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="contact.css">
+    
 </head>
 <body>
     <h2>Contact us! Did you have any problems? If you're here to add your own recipe, please scroll down</h2>
    <div class="form">
-    <form action="" method="post">
+    <form>
         <input type="radio" name="problem" value="1" multiple>There's a problem with your site
         <input type="radio" name="problem" value="2">I didn't receive my order/ I had some problems with my order
         <input type="radio" name="problem" value="3">I don't like your site. I have some suggestions for you to make it better
         <input type="radio" name="problem" value="4">I just wanted to say hi :D
         <br>
         Please give us your e-mail, it will be easier for us to respond :
-        <input type="email" name="email" id="email">
+        <input type="text" name="email" >
         <br>
         Now write your message :<br>
         <textarea>
@@ -24,7 +25,7 @@
         Maybe you have a picture?
         <input type="file" name="pic" accept="image/*">
         <br>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" onclick="alert('Your message has been send, thanks for your help!');">
         <input type="reset" value="Reset">
     </form>
     </div>
