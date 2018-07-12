@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -11,13 +12,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    
     <link rel="Stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" href="fontello-aa345661/css/fontello.css">
 
@@ -29,6 +32,14 @@
     <!-- menu -->
 
 
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#s1">Menu 1</a></li>
+        <li class="active"><a href="#s2">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+        <li><a href="#">Menu 4</a></li>
+        <li><a href=""></a></li>
+    </ul>
 
 
     <!-- slider -->
@@ -63,17 +74,40 @@
 
 
 
+    <!-- map -->
 
-
+    <div class="map" style="width:600px;height:500px" id="gmeg_map_canvas"></div>
+    <script>
+        var gmegMap, gmegMarker, gmegInfoWindow, gmegLatLng;
+        function gmegInitializeMap(){gmegLatLng = new google.maps.LatLng(51.067203,13.750174);
+        gmegMap = new google.maps.Map(document.getElementById("gmeg_map_canvas"),{zoom:15,center:gmegLatLng,mapTypeId:google.maps.MapTypeId.ROADMAP});
+        gmegMarker = new google.maps.Marker({map:gmegMap,position:gmegLatLng});gmegInfoWindow = new google.maps.InfoWindow({content:'<b></b><br>Hostel Louise 20, Louisenstraße, Dresden<br>'});
+gmegInfoWindow.open(gmegMap,gmegMarker);
+    }google.maps.event.addDomListener(window,"load",gmegInitializeMap);
+    </script>
+    
+    
+    
     <footer>
+
+
         <div class="socdiv">
-        <i class="icon-youtube-squared  , soc"></i>
-        <i class="icon-twitter-squared , soc"></i>
-        <i class="icon-facebook-squared , soc"></i>
-        <i class="icon-linkedin-squared , soc"></i> 
+            <i class="icon-youtube-squared  , soc"></i>
+            <i class="icon-twitter-squared , soc"></i>
+            <i class="icon-facebook-squared , soc"></i>
+            <i class="icon-linkedin-squared , soc"></i>
         </div>
-        <p style="float: left;">&copy; Kamila Wilczynska, Kamil Kowalczyk</p>
+        <div class="fot1" href="contactus.html">Contact us!</div>
+        <div class="fot1" href="aboutus.html">About us!</div>
+        <div class="fot2">
+        <a>email:ihaha@unicorn.help</a>
+        <a>phone:666999696</a>
+        <a>adress:Louisenstraße 20, 01099 Dresden</a>
+        </div>
+
 
     </footer>
+    <p class="copyright">&copy; Kamila Wilczynska, Kamil Kowalczyk</p>
+
 </body>
 </html>

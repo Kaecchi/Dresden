@@ -18,6 +18,31 @@ width: 100%;
 }
 .socdiv{
   width: 140px;  
+       float: left;
     
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+      
     
+}
+footer{
+    width: 100%;
+    height: 200px;
+
+}
+.fot1{
+    width: 20%;
+    padding: 25px;
+           float: left;
+
+}
+.map{
+    color: black;
+}
+.fot2{
+    width: 40%;
+
+
 }
