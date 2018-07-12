@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
+    <h2>Contact us! Did you have any problems? If you're here to add your own recipe, please scroll down</h2>
+   <div class="form">
     <form action="" method="post">
-        Contact us! Did you have any problems? (you can choose more than one)<br>
-        <input type="checkbox" name="problem" value="1" multiple>There's a problem with your site
-        <input type="checkbox" name="problem" value="2">I didn't receive my order/ I had some problems with my order
-        <input type="checkbox" name="problem" value="3">I don't like your site. I have some suggestions for you to make it better
-        <input type="checkbox" name="problem" value="4">I just wanted to say hi :D
+        <input type="radio" name="problem" value="1" multiple>There's a problem with your site
+        <input type="radio" name="problem" value="2">I didn't receive my order/ I had some problems with my order
+        <input type="radio" name="problem" value="3">I don't like your site. I have some suggestions for you to make it better
+        <input type="radio" name="problem" value="4">I just wanted to say hi :D
         <br>
         Please give us your e-mail, it will be easier for us to respond :
-        <input type="email" name="email">
+        <input type="email" name="email" id="email">
         <br>
         Now write your message :<br>
         <textarea>
@@ -25,5 +27,11 @@
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
     </form>
+    </div>
+    <br>
+    <h2>Do you want to add your own recipe? If yes, please fill the form below and send it to us. It will automatically appear on our website! :)</h2>
+    <div class="recipe">
+        
+    </div>
 </body>
 </html>
