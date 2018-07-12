@@ -1,0 +1,23 @@
+body{
+    
+    
+    background-color: rgb(64, 64, 64);
+    color: floralwhite;
+}
+
+.slajdy{
+width: 100%; 
+    
+}
+.soc{
+    
+    font-size: 300%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.socdiv{
+  width: 140px;  
+    
+    
+}
