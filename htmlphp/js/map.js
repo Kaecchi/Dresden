@@ -1,4 +1,5 @@
-	var gmegMap, gmegMarker, gmegInfoWindow, gmegLatLng;
+//map	
+var gmegMap, gmegMarker, gmegInfoWindow, gmegLatLng;
 
 	function gmegInitializeMap() {
 		gmegLatLng = new google.maps.LatLng(51.067203, 13.750174);
@@ -6,7 +7,6 @@
 			zoom: 15,
 			center: gmegLatLng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
-		});
 		gmegMarker = new google.maps.Marker({
 			map: gmegMap,
 			position: gmegLatLng
