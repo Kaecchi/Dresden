@@ -1,4 +1,4 @@
-//footer
+
 .soc {
 
     font-size: 300%;
@@ -36,13 +36,20 @@ footer {
     width: 40%;
 }
 
-//menu
+nav{
+    position: fixed;
+    width: 130%;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 nav li {
@@ -56,30 +63,17 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
 }
 
 nav li a:hover {
     background-color: forestgreen;
-    text-decoration: none;
-    color: white;
 }
-
-ul {
+ul{
     list-style-position: inside;
     color: darkgreen;
-}
+  }
 
-ol {
+ol{
     list-style-position: inside;
     color: darkgreen;
-}
-
-nav {
-    position: fixed;
-    top: -30px;
-    left: -27px;
-    width: 120%;
-    background-color: rgba(0, 0, 0, 0.45);
-    z-index: 9000;
 }
