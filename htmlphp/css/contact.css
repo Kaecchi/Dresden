@@ -104,3 +104,8 @@ input[type=text]:focus, textarea:focus{
     background-color: palevioletred;
     color: white;
 }
+
+.menu{
+    font-family: 'Quicksand', sans-serif;
+
+}

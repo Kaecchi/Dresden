@@ -77,3 +77,20 @@ ol{
     list-style-position: inside;
     color: darkgreen;
 }
+<<<<<<< HEAD
+=======
+
+nav {
+    position: fixed;
+    top: -30px;
+    left: -27px;
+    width: 120%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 9000;
+}
+
+.menu{
+    font-family: 'Quicksand', sans-serif;
+
+}
+>>>>>>> eb733653c9da767b0dbc5f33329ca6bec951650d
