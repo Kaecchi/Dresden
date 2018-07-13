@@ -5,33 +5,45 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 
 <body>
-	<h2>Contact us! Did you have any problems? If you're here to add your own recipe, please scroll down</h2>
+	<h1>Contact us! Did you have any problems? If you're here to add your own recipe, please scroll down</h1>
 	<div class="form">
 		<form>
 			<input type="radio" name="problem" value="1" multiple>There's a problem with your site
 			<input type="radio" name="problem" value="2">I didn't receive my order/ I had some problems with my order
 			<input type="radio" name="problem" value="3">I don't like your site. I have some suggestions for you to make it better
-			<input type="radio" name="problem" value="4">I just wanted to say hi :D
+			<input type="radio" name="problem" value="4">I just wanted to say hi :D<br>
 			<br> Please give us your e-mail, it will be easier for us to respond :
-			<input type="text" name="email">
+			<input type="text" name="email" class="email">
 			<br> Now write your message :<br>
 			<textarea>
-        </textarea>
+            </textarea>
 			<br> Maybe you have a picture?
 			<input type="file" name="pic" accept="image/*">
-			<br>
-			<input type="submit" value="Send" onclick="alert('Your message has been send, thanks for your help!');">
-			<input type="reset" value="Reset">
+			<br><br>
+            <button class="button button1" value="Send" onclick="alert('Your message has been send, thanks for your help!');">Send</button>
+            <button class="button button1" value="Reset">Reset</button>
 		</form>
 	</div>
-	<br>
-	<h2>Do you want to add your own recipe? If yes, please fill the form below and send it to us. It will automatically appear on our website! :)</h2>
+	<br><br>
+	<h1>Do you want to add your own recipe? If yes, please fill the form below and send it to us. It will automatically appear on our website! :)</h1>
 	<div class="recipe">
-
+        <form>
+            Please write your name, to let others know who you are : <input type="text" name="name" class="name"><br>
+            Here you can write your recipe:
+            <textarea>
+            </textarea>
+            And add a photo if you want: 
+            <input type="file" name="pic" accept="image/*">
+            <br><br>
+            <button class="button button1" value="Send" onclick="alert('Your message has been send, thanks for your help!');">Send</button>
+            <button class="button button1" value="Reset">Reset</button>
+        </form>
 	</div>
 </body>
 
