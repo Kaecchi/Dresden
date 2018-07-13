@@ -36,7 +36,7 @@ img{
 .socdiv {
     width: 140px;
     float: left;
-    margin: 0% 0% 0% 7%;
+    margin: 1.45% 0% 0% 7%;
 
 }
 
@@ -55,21 +55,31 @@ footer {
 
 .fot1 {
     width: 20%;
-    padding: 3% 1%;
+    margin: 1%;
+    padding: 3% 1% 0% 1%;
     height: 80%;
     float: left;
     text-align: center;
     font-size: 140%;
     //top: -30px;
+    border: 0px pink solid;
+    border-radius: 8px;
+    //background-color: darkgray;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.fot1:hover{
+    background-color: dimgray;
 }
 
 .fot2 {
     width: 40%;
     text-align: center;
-    padding: 1% 0;
+    padding: 2% 0%;
     font-size: 140%;
-        float: left;
-    
+    float: left;
+    background-color: pink;
 }
 
 //menu
