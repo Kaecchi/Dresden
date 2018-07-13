@@ -1,48 +1,106 @@
-body{
-    
-    
-    background-color: rgb(64, 64, 64);
-    color: floralwhite;
+body {
+
+
+	background-color: rgb(64, 64, 64);
+	color: floralwhite;
 }
 
-.slajdy{
-width: 100%; 
-    
+.slajdy {
+	width: 100%;
+
 }
-.soc{
-    
-    font-size: 300%;
-    display: inline-block;
+
+.soc {
+
+	font-size: 300%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.socdiv {
+	width: 140px;
+	float: left;
+
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+
+
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+
+}
+
+.fot1 {
+	width: 20%;
+	padding: 25px;
+	float: left;
+
+}
+
+.map {
+	color: black;
+}
+
+.fot2 {
+	width: 40%;
+
+
+}
+
+//menu
+
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-.socdiv{
-  width: 140px;  
-       float: left;
-    
+
+nav li {
+    float: left;
+    width: 16.666%;
 }
-.copyright{
-    width: 100%;
+
+nav li a {
+    display: block;
+    color: white;
     text-align: center;
-      
-    
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
 }
-footer{
-    width: 100%;
-    height: 200px;
 
+nav li a:hover {
+    background-color: forestgreen;
+	    text-decoration: none;
+	color: white;
 }
-.fot1{
-    width: 20%;
-    padding: 25px;
-           float: left;
+ul{
+    list-style-position: inside;
+    color: darkgreen;
+  }
 
+ol{
+    list-style-position: inside;
+    color: darkgreen;
 }
-.map{
-    color: black;
+
+nav{
+    position: fixed;
+	top: -30px;
+	left: -20px;
+    width: 120%;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 9000;
 }
-.fot2{
-    width: 40%;
 
 
-}
