@@ -7,6 +7,7 @@ var gmegMap, gmegMarker, gmegInfoWindow, gmegLatLng;
 			zoom: 15,
 			center: gmegLatLng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
+		});
 		gmegMarker = new google.maps.Marker({
 			map: gmegMap,
 			position: gmegLatLng
