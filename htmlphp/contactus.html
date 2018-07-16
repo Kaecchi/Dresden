@@ -6,13 +6,14 @@
 
 	<meta charset="UTF-8">
 	<title>Document</title>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
 	<!-- Bootstrap CSS --> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="fontello-aa345661/css/fontello.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">  
     <link rel="stylesheet" href="css/menufooter.css">
+    <link rel="stylesheet" href="css/feedback.css">
 
     
     <!--fonts-->
@@ -20,7 +21,8 @@
 
 </head>
 
-<body>
+<body onmousedown='$(".textarea").height("100px");
+        $(".textarea").width("200px");'>
 
 <nav>
 		<ul class="me">
@@ -59,7 +61,7 @@
         <form id="przepis" action="add.php" method="post" enctype="multipart/form-data">
             Please write your name, to let others know who you are : <input type="text" name="name" class="name"><br>
             Here you can write your recipe:
-            <textarea type="text" name="recipe" form="przepis">
+            <textarea class="area2">
             </textarea>
             And add a photo if you want: &nbsp;
             <input type="file" name="pic" accept="image/*">
@@ -75,7 +77,8 @@
 	    <form>
 	        Give us your feedback!
 	        <input type="email" name="mail" class="mail"><br>
-	        <textarea class="textarea">
+	        <textarea class="textarea"  style="height:100px;" onclick='$(".textarea").height("200px");
+        $(".textarea").width("700px");'>
 	        </textarea>
 	        Thanks!
 	    </form>
@@ -96,6 +99,8 @@
 			<a>phone:666999696</a><br>
 			<a>adress:Louisenstraße 20, 01099 Dresden</a><br>
 		</div>
+
+
 
 
 	</footer>

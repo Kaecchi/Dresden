@@ -8,17 +8,13 @@
 .textarea{
     width: 100px;
     height: 100px;
-    background: red;;
-    transition: width 1s;
+    background: red;
+    transition: 1s;
     transition-delay: 0.2s;
 }
 
 .textarea:after{
-    width: 300px;
-}
-
-.textarea:active:after{
-    
+    background-color: black;
 }
 
 .mail{
