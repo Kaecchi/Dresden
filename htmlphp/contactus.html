@@ -3,10 +3,11 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>]
+	<title>Document</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/contact.css">  
     <link rel="stylesheet" href="css/menufooter.css">
+    <link rel="stylesheet" href="css/feedback.css">
     
     <!--fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -38,7 +39,7 @@
 			<br> Please give us your e-mail, it will be easier for us to respond :
 			<input type="text" name="email" class="email">
 			<br> Now write your message :<br>
-			<textarea>
+			<textarea class="area1">
             </textarea>
 			<br> Maybe you have a picture? &nbsp;
 			<input type="file" name="pic" accept="image/*">
@@ -54,7 +55,7 @@
         <form>
             Please write your name, to let others know who you are : <input type="text" name="name" class="name"><br>
             Here you can write your recipe:
-            <textarea>
+            <textarea class="area1">
             </textarea>
             And add a photo if you want: &nbsp;
             <input type="file" name="pic" accept="image/*">
@@ -63,6 +64,16 @@
             &nbsp;
             <button class="button button1" value="Reset">Reset</button>
         </form>
+	</div>
+	<br>
+	<div class="feedback">
+	    <form>
+	        Give us your feedback!
+	        <input type="email" name="mail" class="mail"><br>
+	        <textarea class="textarea">
+	        </textarea>
+	        Thanks!
+	    </form>
 	</div>
 </body>
 
