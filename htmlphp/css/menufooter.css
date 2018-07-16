@@ -45,7 +45,7 @@ footer {
 }
 
 .fot1:hover{
-    background-color: dimgray;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .fot2 {
@@ -53,8 +53,11 @@ footer {
     text-align: center;
     padding: 2% 0%;
     font-size: 140%;
-    float: left;    
+    float: left;
+    border: 0px pink solid;
+    border-radius: 8px;
 }
+
 nav{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.45);
@@ -109,4 +112,14 @@ nav li a:hover {
     background-color: forestgreen;
     text-decoration: none;
     color: white;
+}
+
+.icon-youtube-squared, .icon-twitter-squared, .icon-facebook-squared,.icon-linkedin-squared{
+    border: 0px pink solid;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.icon-youtube-squared:hover, .icon-twitter-squared:hover, .icon-facebook-squared:hover, .icon-linkedin-squared:hover{
+    background-color: rgba(255, 255, 255, 0.5);
 }
