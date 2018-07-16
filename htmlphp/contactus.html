@@ -6,14 +6,12 @@
 
 	<meta charset="UTF-8">
 	<title>Document</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
 	<!-- Bootstrap CSS --> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="fontello-aa345661/css/fontello.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">  
     <link rel="stylesheet" href="css/menufooter.css">
-    <link rel="stylesheet" href="css/feedback.css">
 
     
     <!--fonts-->
@@ -60,6 +58,7 @@
 	<div class="recipe">
         <form id="przepis" action="add.php" method="post" enctype="multipart/form-data">
             Please write your name, to let others know who you are : <input type="text" name="name" class="name"><br>
+            Give us the title of your dish : <input type="text" name="title" class="title"><br>
             Here you can write your recipe:
             <textarea class="area2">
             </textarea>
@@ -73,16 +72,7 @@
        
 	</div>
 	<br>
-	<div class="feedback">
-	    <form>
-	        Give us your feedback!
-	        <input type="email" name="mail" class="mail"><br>
-	        <textarea class="textarea"  style="height:100px;" onclick='$(".textarea").height("200px");
-        $(".textarea").width("700px");'>
-	        </textarea>
-	        Thanks!
-	    </form>
-	</div>
+	
 	 <footer>
 
 
