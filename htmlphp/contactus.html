@@ -4,23 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+<<<<<<< HEAD
 	
 	<link rel="stylesheet" type="text/css" href="css/contact.css">  
     <link rel="stylesheet" href="css/menufooter.css">
     <link rel="stylesheet" href="css/feedback.css">
+=======
+	<link rel="stylesheet" href="fontello-aa345661/css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">  
+    <link rel="stylesheet" href="css/menufooter.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">  
+    <link rel="stylesheet" href="menufooter.css">
+>>>>>>> 887a2788a9e87a7b1ba5fc1c9afab80306aa078f
     
     <!--fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 
 <body>
 
 <nav>
-		<ul class="menu">
-            <li><a href="index.html">Home</a></li>
+		<ul class="me">
+            <li class="firstt"><a href="index.html">Home</a></li>
 			<li><a href="recipe.php">shop</a></li>
 			<li><a href="gallery.php">gallery</a></li>
 			<li><a href="contactus.html">contact us</a></li>
@@ -52,10 +58,14 @@
 	<br><br>
 	<h1>Do you want to add your own recipe? If yes, please fill the form below and send it to us. It will automatically appear on our website! :)</h1>
 	<div class="recipe">
-        <form>
+        <form id="przepis" action="add.php" method="post" enctype="multipart/form-data">
             Please write your name, to let others know who you are : <input type="text" name="name" class="name"><br>
             Here you can write your recipe:
+<<<<<<< HEAD
             <textarea class="area1">
+=======
+            <textarea type="text" name="recipe" form="przepis">
+>>>>>>> 887a2788a9e87a7b1ba5fc1c9afab80306aa078f
             </textarea>
             And add a photo if you want: &nbsp;
             <input type="file" name="pic" accept="image/*">
@@ -64,7 +74,9 @@
             &nbsp;
             <button class="button button1" value="Reset">Reset</button>
         </form>
+       
 	</div>
+<<<<<<< HEAD
 	<br>
 	<div class="feedback">
 	    <form>
@@ -75,6 +87,28 @@
 	        Thanks!
 	    </form>
 	</div>
+=======
+	 <footer>
+
+
+		<div class="socdiv" >
+			<a class="icon-youtube-squared  , soc" href="https://www.youtube.com/"></a>
+			<a class="icon-twitter-squared  , soc" href="https://www.twitter.com/"></a>
+			<a class="icon-facebook-squared , soc" href="https://www.facebook.com/"></a>
+			<a class="icon-linkedin-squared , soc" href="https://www.linkedin.com/"></a>
+		</div>
+		<div class="fot1" href="contactus.html">Contact us!</div>
+		<div class="fot1" href="aboutus.html">About us!</div>
+		<div class="fot2">
+			<a>email:ihaha@unicorn.help</a><br>
+			<a>phone:666999696</a><br>
+			<a>adress:Louisenstraße 20, 01099 Dresden</a><br>
+		</div>
+
+
+	</footer>
+	<p class="copyright">&copy; Kamila Wilczynska, Kamil Kowalczyk</p>
+>>>>>>> 887a2788a9e87a7b1ba5fc1c9afab80306aa078f
 </body>
 
 </html>

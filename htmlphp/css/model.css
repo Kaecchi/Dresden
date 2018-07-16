@@ -1,0 +1,28 @@
+body{
+background-color: black;
+}
+
+.tekst{
+    color:white;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    font-size: 50px;
+}
+
+.pic{
+    background-color: rgba(255, 255, 255, 0.4);
+    float: left;
+    margin-right: 5%;
+    margin-left: 7%;
+    width: 25%;
+    
+}
+
+.recipe{
+    background-color: rgba(255, 255, 255, 0.4);
+    float: left;
+    width: 55%;
+    
+}

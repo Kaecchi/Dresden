@@ -113,6 +113,7 @@ nav li a:hover {
 ul {
     list-style-position: inside;
     color: darkgreen;
+    list-style-type: disc;
 }
 
 ol {
@@ -129,7 +130,7 @@ nav {
     z-index: 9000;
 }
 
-.menu{
+.me{
     font-family: 'Quicksand', sans-serif;
 
 }
