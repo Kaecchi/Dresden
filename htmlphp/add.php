@@ -72,6 +72,7 @@ $current = file_get_contents($file);
 $pic = $_POST['pic'];   
 $name = $_POST['name'];   
 $recipe = $_POST['recipe'];   
+$title = $_POST['title'];   
   
 
 
@@ -154,11 +155,27 @@ $current .= '</div>';
     
 file_put_contents($file, $current);
     
-$file = 'added.html';
-$current = file_get_contents($file2);
+$filee = 'added.html';
+$currentt = file_get_contents($filee);
 
+$currentt .= ' <div class="box"><img src="';
+$currentt .=$pic;
+$currentt .= ' "> <div class="overlay ovrl-left">autor:';
+$currentt .=$name;
+$currentt .= ' </div><a class="overlay2 oleft" href="';
+$currentt = 'recipe';
+$currentt .= $liczba;
+$currentt .= '.html';   
+$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right">';   
  
-    file_put_contents($file2, $current2);
+$currentt .=$title;
+$currentt .= '</div>
+      <a class="overlay2 oright" href="index.html"><br><br> BUY </a>
+      <div class="locker"><i class="arrow fa fa-arrows-h" aria-hidden="true"></i></div>
+    </div>';  
+    
+    
+file_put_contents($filee, $currentt);
   
       //  header('Location: index.php');
 ?>
