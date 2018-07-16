@@ -44,7 +44,7 @@ move_uploaded_file($_FILES['pic']['tmp_name'], $new_path);
 
 
 
-   $plik="licz.txt";
+   $plik='licz.txt';
    $file=fopen($plik, "r");
    flock($file, 1);
    $liczba=fgets($file, 16);
@@ -154,6 +154,12 @@ $current .= '</div>';
     
 file_put_contents($file, $current);
     
+$file = 'added.html';
+$current = file_get_contents($file2);
+
+ 
+    file_put_contents($file2, $current2);
+  
       //  header('Location: index.php');
 ?>
 <a>   recipes on the site </a>

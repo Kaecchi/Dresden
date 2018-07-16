@@ -64,12 +64,13 @@
       <div class="overlay ovrl-right ovrl-9"></div>
       <div class="locker"><i class="arrow fa fa-arrows-h" aria-hidden="true"></i></div>
     </div>
-        <div class="box item-10"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img9.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-10"></div>
-      <div class="overlay ovrl-right ovrl-10"></div>
-      <div class="locker"><i class="arrow fa fa-arrows-h" aria-hidden="true"></i></div>
-    </div>
 
+<?php
+    include 'added.html';
+
+
+ ?>
+ 
   </div>
 
 
