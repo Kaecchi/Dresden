@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="fontello-aa345661/css/fontello.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">  
     <link rel="stylesheet" href="css/menufooter.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">  
+    <link rel="stylesheet" href="menufooter.css">
     
     <!--fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -49,10 +51,10 @@
 	<br><br>
 	<h1>Do you want to add your own recipe? If yes, please fill the form below and send it to us. It will automatically appear on our website! :)</h1>
 	<div class="recipe">
-        <form>
+        <form id="przepis" action="add.php" method="post" enctype="multipart/form-data">
             Please write your name, to let others know who you are : <input type="text" name="name" class="name"><br>
             Here you can write your recipe:
-            <textarea>
+            <textarea type="text" name="recipe" form="przepis">
             </textarea>
             And add a photo if you want: &nbsp;
             <input type="file" name="pic" accept="image/*">
