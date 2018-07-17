@@ -20,16 +20,14 @@
  
 <body>
 
-    <nav>
+     <nav>
 		<ul class="me">
             <li class="firstt"><a href="index.html">Home</a></li>
-			<li><a href="recipe.php">shop</a></li>
-			<li><a href="gallery.php">gallery</a></li>
+			<li><a href="galleryshop.php">shop</a></li>
 			<li><a href="contactus.html">contact us</a></li>
 			<li><a href="aboutus.html">about us</a></li>
-
 		</ul>
-	</nav>
+    </nav>
 
 
   <div class="wrapper">
