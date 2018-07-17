@@ -65,6 +65,7 @@ nav{
     left: 0;
     width: 120%;
     line-height: 1.5;
+    z-index: 10;
 }
 
 nav ul {

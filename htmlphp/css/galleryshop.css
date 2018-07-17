@@ -105,6 +105,7 @@ img {
   box-shadow: 9px 0px 19px 0px rgba(105, 109, 122, 1);
   border-left: 0.5px solid rgba(255, 255, 255, 0.8);
     z-index:5;
+  font-size:20px;
 }
 
 .ovrl-right {

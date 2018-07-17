@@ -58,7 +58,8 @@ move_uploaded_file($_FILES['pic']['tmp_name'], $new_path);
    flock($file, 2);
    fwrite($file, $liczba++);
    flock($file, 3);
-   fclose($file); 
+   fclose($file);
+$liczba--;
   echo $liczba;
   
 
@@ -158,20 +159,20 @@ file_put_contents($file, $current);
 $filee = 'added.html';
 $currentt = file_get_contents($filee);
 
-$currentt .= ' <div class="box"><img src="';
-$currentt .=$pic;
-$currentt .= ' "> <div class="overlay ovrl-left">autor:';
-$currentt .=$name;
-$currentt .= ' </div><a class="overlay2 oleft" href="';
-$currentt = 'recipe';
+$currentt .= '<div class="box"><img src="';
+$currentt .=$_FILES['pic']['name'];
+$currentt .= '"> <div class="overlay ovrl-left"> <br> <br> <br> autor:';
+$currentt .=$name; 
+$currentt .= '</div><a class="overlay2 oleft" href="';
+$currentt .= 'recipe';
 $currentt .= $liczba;
 $currentt .= '.html';   
-$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right">';   
+$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right"> <br> <br>';   
  
 $currentt .=$title;
 $currentt .= '</div>
-      <a class="overlay2 oright" href="index.html"><br><br> BUY </a>
-      <div class="locker"><i class="arrow fa fa-arrows-h" aria-hidden="true"></i></div>
+      <a class="overlay2 oright" href="index.html"> <br> <br> BUY </a>
+     
     </div>';  
     
     
