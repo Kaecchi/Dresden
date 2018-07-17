@@ -97,16 +97,14 @@ $current .= '<!DOCTYPE html>
 </head>
 <body>
 
-<nav>
+    <nav>
 		<ul class="me">
             <li class="firstt"><a href="index.html">Home</a></li>
-			<li><a href="recipe.php">shop</a></li>
-			<li><a href="gallery.php">gallery</a></li>
+			<li><a href="galleryshop.php">shop</a></li>
 			<li><a href="contactus.html">contact us</a></li>
 			<li><a href="aboutus.html">about us</a></li>
-
 		</ul>
-	</nav>
+    </nav>
 
 
 
@@ -139,8 +137,8 @@ $current .= '</div>';
 			<a class="icon-facebook-squared , soc" href="https://www.facebook.com/"></a>
 			<a class="icon-linkedin-squared , soc" href="https://www.linkedin.com/"></a>
 		</div>
-		<div class="fot1" href="contactus.html">Contact us!</div>
-		<div class="fot1" href="aboutus.html">About us!</div>
+		<a href="contactus.html"><div class="fot1">Contact us!</div></a>
+        <a href="aboutus.html"><div class="fot1">About us!</div></a>
 		<div class="fot2">
 			<a>email:ihaha@unicorn.help</a><br>
 			<a>phone:666999696</a><br>
@@ -167,7 +165,7 @@ $currentt .= '</div><a class="overlay2 oleft" href="';
 $currentt .= 'recipe';
 $currentt .= $liczba;
 $currentt .= '.html';   
-$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right"> <br> <br>';   
+$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right"> <br>';   
  
 $currentt .=$title;
 $currentt .= '</div>

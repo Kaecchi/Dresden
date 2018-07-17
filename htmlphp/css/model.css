@@ -1,6 +1,7 @@
 body {
     background-color: rgb(89, 89, 89);
     color: floralwhite;
+    text-align: center;
 }
 
 .tekst{
@@ -13,17 +14,39 @@ body {
 }
 
 .pic{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
     float: left;
-    margin-right: 5%;
-    margin-left: 7%;
-    width: 25%;
+    width: 47%;
+    border-radius: 40px;
+    margin: 0 0 0 1.4% ;
     
 }
 
 .recipe{
-    background-color: rgba(255, 255, 255, 0.4);
-    float: left;
-    width: 55%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 47%;
+    font-size: 25px;
+    border-radius: 20px;
+    vertical-align: middle;
+    height: auto;
+    color: black;
     
+}
+img{
+    max-width: 100%;
+    min-width: 75%;
+    min-height: 250; 
+    max-height: 500px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+article{
+    box-sizing: content-box;
+    min-height: 650px;
+    max-height: 1000px;
+    clear: both;
+    width: 100%;
+    display: block;
 }
