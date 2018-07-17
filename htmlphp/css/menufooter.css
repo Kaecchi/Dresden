@@ -43,6 +43,16 @@ footer {
     //background-color: darkgray;
     transition-duration: 0.4s;
     cursor: pointer;
+    text-decoration: none;    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
 }
 
 .fot1:hover{
