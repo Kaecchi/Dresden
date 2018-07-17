@@ -98,6 +98,7 @@ input[type=text]:focus, .area1:focus, .area2:focus{
     background-color: rgb(166, 166, 166); 
     color: black; 
     border: rgba(10, 10, 10, 0.7) solid 2px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button:hover {
