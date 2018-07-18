@@ -95,14 +95,21 @@ $current .= '<!DOCTYPE html>
 
 
 </head>
-<body>
 
-    <nav>
+<body onload="$( "#top_10" ).remove();">
+
+
+	<!-- menu -->
+<a class="logoo" href="index.html"><img src="img/logoofficial.png" style="margin-top: 0;"></a>
+	 <nav>
+	 
 		<ul class="me">
+            
             <li class="firstt"><a href="index.html">Home</a></li>
 			<li><a href="galleryshop.php">shop</a></li>
-			<li><a href="contactus.html">contact us</a></li>
+			<li  class="sr"><a href="contactus.html">contact us</a></li>
 			<li><a href="aboutus.html">about us</a></li>
+			
 		</ul>
     </nav>
 
