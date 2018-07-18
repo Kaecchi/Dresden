@@ -21,14 +21,14 @@
 <body>
 
  <a class="logoo" href="index.html"><img src="img/logoofficial.png"></a>
-	 <nav>
+		 <nav>
 	 
 		<ul class="me">
             
             <li class="firstt"><a href="index.html">Home</a></li>
-			<li><a href="galleryshop.php">shop</a></li>
-			<li  class="sr"><a href="contactus.html">contact us</a></li>
-			<li><a href="aboutus.html">about us</a></li>
+			<li><a href="galleryshop.php">Shop</a></li>
+			<li  class="sr"><a href="contactus.html">Contact us</a></li>
+			<li><a href="aboutus.html">About us</a></li>
 			
 		</ul>
     </nav>

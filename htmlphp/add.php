@@ -101,14 +101,14 @@ $current .= '<!DOCTYPE html>
 
 	<!-- menu -->
 <a class="logoo" href="index.html"><img src="img/logoofficial.png" style="margin-top: 0;"></a>
-	 <nav>
+    <nav>
 	 
 		<ul class="me">
             
             <li class="firstt"><a href="index.html">Home</a></li>
-			<li><a href="galleryshop.php">shop</a></li>
-			<li  class="sr"><a href="contactus.html">contact us</a></li>
-			<li><a href="aboutus.html">about us</a></li>
+			<li><a href="galleryshop.php">Shop</a></li>
+			<li  class="sr"><a href="contactus.html">Contact us</a></li>
+			<li><a href="aboutus.html">About us</a></li>
 			
 		</ul>
     </nav>
@@ -127,7 +127,7 @@ $current .= '<br>';
 $current .= '</div>';
   $current .= '<div class="pic">';
 
-    $current .= '<img src=">';
+    $current .= '<img src="';
 $current .= $_FILES['pic']['name'];
 $current .= '">';
   $current .= '</div>';
@@ -172,7 +172,7 @@ $currentt .= '</div><a class="overlay2 oleft" href="';
 $currentt .= 'recipe';
 $currentt .= $liczba;
 $currentt .= '.html';   
-$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right"> <br>';   
+$currentt .= '"><br><br>DETAILS</a><div class="overlay ovrl-right">';   
  
 $currentt .=$title;
 $currentt .= '</div>

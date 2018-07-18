@@ -33,7 +33,7 @@ body {
     color: black;
     
 }
-img{
+.pic img{
     max-width: 100%;
     min-width: 75%;
     min-height: 250; 
