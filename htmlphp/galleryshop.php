@@ -26,7 +26,7 @@
 		<ul class="me">
             
             <li class="firstt"><a href="index.html">Home</a></li>
-			<li><a href="galleryshop.php">Shop</a></li>
+			<li><a class="tu">Shop</a></li>
 			<li  class="sr"><a href="contactus.html">Contact us</a></li>
 			<li><a href="aboutus.html">About us</a></li>
 			
