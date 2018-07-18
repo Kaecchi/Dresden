@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>photo show</title>
   	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap CSS --> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -35,44 +37,7 @@
 
 
   <div class="wrapper">
-    <div class="box item-1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img1.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-1"></div>
-      <div class="overlay ovrl-right ovrl-1"></div>
-    </div>
-    <div class="box item-2"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img2.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-2"></div>
-      <div class="overlay ovrl-right ovrl-2"></div>
-    </div>
-    <div class="box item-3"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img3.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-3"></div>
-      <div class="overlay ovrl-right ovrl-3"></div>
-    </div>
-    <div class="box item-4"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img4.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-4">JESTEM ZENON POZDRAWIAM CIE SERDECZNIE</div>
-      <div class="overlay ovrl-right ovrl-4"><br>TO JEST TYTUL</div>
-    </div>
-    <div class="box item-5"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img5.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-5"></div>
-      <a class="overlay2 oleft ovrl-5" href="index.html"><br><br>DETAILS</a>
-      <div class="overlay ovrl-right ovrl-5"></div>
-      <a class="overlay2 oright ovrl-5" href="index.html"><br><br> BUY </a>
-    </div>
-    <div class="box item-6"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img6.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-6"></div>
-      <div class="overlay ovrl-right ovrl-6"></div>
-    </div>
-    <div class="box item-7"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img7.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-7"></div>
-      <div class="overlay ovrl-right ovrl-7"></div>
-    </div>
-    <div class="box item-8"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img8.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-8"></div>
-      <div class="overlay ovrl-right ovrl-8"></div>
-    </div>
-    <div class="box item-9"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/740816/img9.jpg" alt="">
-      <div class="overlay ovrl-left ovrl-9"></div>
-      <div class="overlay ovrl-right ovrl-9"></div>
-    </div>
+   
 
 <?php
     include 'added.html';

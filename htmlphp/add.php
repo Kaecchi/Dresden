@@ -3,11 +3,34 @@
 <head>
 	<meta charset="utf-8" />
 	<title>sprawdzacz</title>
+	    <link rel="stylesheet" href="css/menufooter.css">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <body>
 
+<nav>
 
+        <ul class="me">
+
+            <li class="firstt"><a href="index.html">Home</a></li>
+            <li><a href="galleryshop.php">Shop</a></li>
+            <li class="sr"><a href="contactus.html">Contact us</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   <a>Thanks for add your recipe!  &nbsp; ^^</a>
     <a> there are already </a>
 
@@ -70,7 +93,7 @@ $file .= '.html';
 $current = file_get_contents($file);
 
 
-$pic = $_POST['pic'];   
+   
 $name = $_POST['name'];   
 $recipe = $_POST['recipe'];   
 $title = $_POST['title'];   
@@ -116,12 +139,15 @@ $current .= '<!DOCTYPE html>
 
 
 
-
+ <article>
         <div class="tekst">';
-    $current .= 'recipe number: ';
+    
+    $current .= 'Title: ';
+    $current .= $title;
+    $current .= '   recipe number: ';
 $current .= $liczba;
 $current .= '<br>';
-$current .= 'autor: ';
+$current .= 'author: ';
 $current .= $name;
 $current .= '<br>';
 $current .= '</div>';
@@ -134,7 +160,7 @@ $current .= '">';
 
     $current .= '<div class="recipe">';
 $current .= $recipe;
-$current .= '</div>';
+$current .= '</div>  </article>';
 
 
     $current .= '<footer>
@@ -166,7 +192,7 @@ $currentt = file_get_contents($filee);
 
 $currentt .= '<div class="box"><img src="';
 $currentt .=$_FILES['pic']['name'];
-$currentt .= '"> <div class="overlay ovrl-left"> <br> <br> <br> autor:';
+$currentt .= '"> <div class="overlay ovrl-left"> <br> <br>  author:';
 $currentt .=$name; 
 $currentt .= '</div><a class="overlay2 oleft" href="';
 $currentt .= 'recipe';
@@ -183,7 +209,7 @@ $currentt .= '</div>
     
 file_put_contents($filee, $currentt);
   
-      //  header('Location: index.php');
+        header('Location: galleryshop.php');
 ?>
 <a>   recipes on the site </a>
 </body>
