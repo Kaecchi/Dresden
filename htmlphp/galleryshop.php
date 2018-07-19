@@ -51,13 +51,13 @@
 
 
 		<div class="socdiv" >
-			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-youtube-squared  , soc" href="https://www.youtube.com/"></a>
-			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-twitter-squared  , soc" href="https://www.twitter.com/"></a>
-			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-facebook-squared , soc" href="https://www.facebook.com/"></a>
-			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-linkedin-squared , soc" href="https://www.linkedin.com/"></a>
+			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-youtube-squared  , soc" href="https://www.youtube.com/" target="_blank"></a>
+			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-twitter-squared  , soc" href="https://www.twitter.com/" target="_blank"></a>
+			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-facebook-squared , soc" href="https://www.facebook.com/" target="_blank"></a>
+			<a style="padding-bottom: 10px; padding-top: 15px;" class="icon-linkedin-squared , soc" href="https://www.linkedin.com/" target="_blank"></a>
 		</div>
-		<div class="fot1" href="contactus.html">Contact us!</div>
-		<div class="fot1" href="aboutus.html">About us!</div>
+		<a href="contactus.html"><div class="fot1">Contact us!</div></a>
+        <a href="aboutus.html"><div class="fot1">About us!</div></a>
 		<div class="fot2">
 			<a>email:ihaha@unicorn.help</a><br>
 			<a>phone:666999696</a><br>
